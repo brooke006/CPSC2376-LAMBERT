@@ -1,0 +1,137 @@
+// problem2a.cpp - Enhanced Calculator with Memory and Smart Input
+#include <iostream>
+#include <sstream>
+#include <stdexcept>
+#include <vector>
+#include <limits>
+using namespace std;
+
+vector<string> calculationHistory;
+
+template <typename T>
+T calculate(const vector<T>& numbers, char op) {
+    if (numbers.empty()) throw invalid_argument("No numbers to calculate.");
+
+    T result = numbers[0];
+    for (size_t i = 1; i < numbers.size(); i++) {
+        switch (op) {
+        case '+': result += numbers[i]; break;
+        case '-': result -= numbers[i]; break;
+        case '*': result *= numbers[i]; break;
+        case '/':
+            if (numbers[i] == 0) throw runtime_error("Error: Division by zero!");
+            result /= numbers[i];
+            break;
+        default: throw invalid_argument("Invalid operation");
+        }
+    }
+    return result;
+}
+
+void showHistory() {
+    if (calculationHistory.empty()) {
+        cout << "No previous calculations found.\n";
+        return;
+    }
+    cout << "\nHere's what we've calculated recently:\n";
+    for (const auto& record : calculationHistory) {
+        cout << "- " << record << "\n";
+    }
+}
+
+int main() {
+    while (true) {
+        cout << "\nWhat would you like me to do?\n";
+        cout << "1. Compute\n2. View History\n3. Exit\nChoose an option: ";
+
+        int option;
+        while (true) {
+            if (!(cin >> option)) {
+                cout << "Error: Invalid input. Please enter 1, 2, or 3.\n";
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                continue;
+            }
+            if (option < 1 || option > 3) {
+                cout << "Error: Number out of range. Please enter 1, 2, or 3.\n";
+                continue;
+            }
+            break;
+        }
+
+        cin.ignore();
+
+        if (option == 3) {
+            cout << "Goodbye! Stay sharp!\n";
+            break;
+        }
+        else if (option == 2) {
+            showHistory();
+            continue;
+        }
+
+        int numCount;
+        cout << "How many numbers would you like me to work with? ";
+        while (true) {
+            if (!(cin >> numCount)) {
+                cout << "Error: Invalid input. Please enter a positive integer.\n";
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                continue;
+            }
+            if (numCount < 1) {
+                cout << "Error: Number must be greater than zero. Try again.\n";
+                continue;
+            }
+            break;
+        }
+
+        cin.ignore();
+        vector<double> numbers;
+        for (int i = 0; i < numCount; ++i) {
+            double num;
+            cout << "Enter number " << i + 1 << ": ";
+            while (true) {
+                if (!(cin >> num)) {
+                    cout << "Error: Invalid input. Please enter a numeric value.\n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                    cout << "Try again. Enter number " << i + 1 << ": ";
+                    continue;
+                }
+                break;
+            }
+            numbers.push_back(num);
+        }
+
+        char op;
+        cout << "What operation should I perform? (+, -, *, /): ";
+        while (true) {
+            if (!(cin >> op) || (op != '+' && op != '-' && op != '*' && op != '/')) {
+                cout << "Error: Invalid operation. Please enter +, -, *, or /.\n";
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                cout << "Try again. Enter operation: ";
+                continue;
+            }
+            break;
+        }
+
+        try {
+            double result = calculate(numbers, op);
+            string expression;
+            for (size_t i = 0; i < numbers.size(); i++) {
+                expression += to_string(numbers[i]) + (i < numbers.size() - 1 ? string(1, op) : "");
+            }
+            expression += " = " + to_string(result);
+            calculationHistory.push_back(expression);
+
+            cout << "The result is: " << result << "\n";
+        }
+        catch (const exception& e) {
+            cout << "Error: " << e.what() << "\n";
+        }
+    }
+
+    return 0;
+}
