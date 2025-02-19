@@ -1,4 +1,4 @@
-// problem3a.cpp - Smart Task Manager with Improved Error Handling
+
 #include <iostream>
 #include <list>
 #include <string>
