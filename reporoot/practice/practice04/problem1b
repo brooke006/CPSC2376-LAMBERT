@@ -1,4 +1,4 @@
-// problem1b.cpp - Interactive AI Greet System with Persistent Personality
+
 #include <iostream>
 #include <string>
 #include <vector>
