@@ -1,4 +1,3 @@
-// problem2a.cpp - Enhanced Calculator with Memory and Smart Input
 #include <iostream>
 #include <sstream>
 #include <stdexcept>
