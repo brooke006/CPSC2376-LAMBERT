@@ -7,20 +7,21 @@
 int main() {
     std::vector<int> numbers;
     int input;
+    int count = 5;  // Set a specific number of inputs
 
-    std::cout << "Enter integers to be squared (type '0' to end): ";
-    while (true) {
-        if (std::cin >> input) {
-            if (input == 0) break;
-            numbers.push_back(input);
-        } else {
-            std::cout << "Error: Invalid input. Please enter an integer: ";
+    std::cout << "Enter exactly " << count << " integers to square each and compute the sum of squares (one per line):" << std::endl;
+    for (int i = 0; i < count; i++) {
+        std::cout << "Input " << i + 1 << ": ";
+        while (!(std::cin >> input)) {
+            std::cout << "Invalid input detected. Please enter a whole number: ";
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Input " << i + 1 << ": ";
         }
+        numbers.push_back(input);
     }
 
-    std::cout << "Elements squared: ";
+    std::cout << "Each number squared: ";
     std::for_each(numbers.begin(), numbers.end(), [](int &n) {
         n *= n;
         std::cout << n << " ";
@@ -28,7 +29,7 @@ int main() {
     std::cout << "\n";
 
     int sumSquares = std::accumulate(numbers.begin(), numbers.end(), 0);
-    std::cout << "Sum of squares: " << sumSquares << "\n";
+    std::cout << "Sum of the squared numbers: " << sumSquares << "\n";
 
     return 0;
 }
