@@ -6,24 +6,25 @@
 int main() {
     std::vector<int> numbers;
     int input;
+    int count = 5;  // Set a specific number of inputs
 
-    std::cout << "Enter integers to add to the vector (type '0' to end): ";
-    while (true) {
-        if (std::cin >> input) {
-            if (input == 0) break;
-            numbers.push_back(input);
-        } else {
-            std::cout << "Error: Invalid input. Please enter an integer: ";
+    std::cout << "Enter exactly " << count << " integers to calculate their sum and product (one per line):" << std::endl;
+    for (int i = 0; i < count; i++) {
+        std::cout << "Input " << i + 1 << ": ";
+        while (!(std::cin >> input)) {
+            std::cout << "Invalid input detected. Please enter a whole number: ";
             std::cin.clear(); // Clears error flag
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ignore wrong input
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Discards incorrect input
+            std::cout << "Input " << i + 1 << ": ";
         }
+        numbers.push_back(input);
     }
 
     int sum = std::accumulate(numbers.begin(), numbers.end(), 0);
     int product = std::accumulate(numbers.begin(), numbers.end(), 1, std::multiplies<int>());
 
-    std::cout << "Sum of elements: " << sum << "\n";
-    std::cout << "Product of elements: " << product << "\n";
+    std::cout << "Total sum of the elements: " << sum << "\n";
+    std::cout << "Product of the elements: " << product << "\n";
 
     return 0;
 }
