@@ -1,0 +1,7 @@
+﻿  problem1a.cpp
+  problem2a.cpp
+  problem3a.cpp
+  Generating Code...
+problem2a.obj : error LNK2005: _main already defined in problem1a.obj
+problem3a.obj : error LNK2005: _main already defined in problem1a.obj
+C:\Users\blamb\OneDrive\Documents\GitHub\CPSC2376-LAMBERT\practice\Debug\practice05.exe : fatal error LNK1169: one or more multiply defined symbols found

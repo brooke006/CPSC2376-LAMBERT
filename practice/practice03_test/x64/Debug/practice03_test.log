@@ -1,0 +1,2 @@
+﻿  practice03_test.cpp
+C:\Users\blamb\OneDrive\Documents\GitHub\CPSC2376-LAMBERT\practice\practice03_test\practice03_test.cpp(62,1): error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?

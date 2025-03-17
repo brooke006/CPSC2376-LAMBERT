@@ -1,0 +1,124 @@
+// problem1b.cpp - Interactive AI Greet System with Persistent Personality
+#include <iostream>
+#include <string>
+#include <vector>
+#include <ctime>
+#include <algorithm>
+#include <limits>
+using namespace std;
+
+vector<string> greetingHistory;
+string currentPersonality = "neutral";  // Default personality
+
+string getTimeGreeting() {
+    time_t now = time(nullptr);
+    struct tm localTime;
+    localtime_s(&localTime, &now);
+    int hour = localTime.tm_hour;
+
+    if (hour < 12) return "Good morning";
+    else if (hour < 18) return "Good afternoon";
+    else return "Good evening";
+}
+
+void greet(const string& name, const string& prefix = "Hello") {
+    string message;
+
+    // Adjust message based on current personality
+    if (name == "Dexter") {
+        message = "Dexter! My favorite fluffy companion!";
+    }
+    else {
+        if (currentPersonality == "formal") {
+            message = prefix + ", Mr./Ms. " + name + ". It's a pleasure to assist you.";
+        }
+        else if (currentPersonality == "friendly") {
+            message = prefix + ", " + name + "! How's it going?";
+        }
+        else if (currentPersonality == "sarcastic") {
+            message = prefix + ", " + name + ". Oh great, you're back again.";
+        }
+        else {
+            message = prefix + ", " + name + "!";
+        }
+    }
+
+    message = getTimeGreeting() + ", " + name + "! " + message;
+
+    greetingHistory.push_back(message);
+    if (greetingHistory.size() > 5) greetingHistory.erase(greetingHistory.begin());
+
+    cout << message << "\n";
+}
+
+void showHistory() {
+    if (greetingHistory.empty()) {
+        cout << "No greeting history available.\n";
+        return;
+    }
+
+    cout << "\nHere's what we've talked about recently:\n";
+    for (const auto& greeting : greetingHistory) {
+        cout << "- " << greeting << "\n";
+    }
+}
+
+void changePersonality() {
+    string personality;
+    cout << "Which personality should I use? (formal, friendly, sarcastic, neutral): ";
+    getline(cin, personality);
+    transform(personality.begin(), personality.end(), personality.begin(), ::tolower);
+    if (personality != "formal" && personality != "friendly" && personality != "sarcastic" && personality != "neutral") {
+        cout << "Error: Invalid personality type. Defaulting to 'neutral'.\n";
+        currentPersonality = "neutral";
+    }
+    else {
+        currentPersonality = personality;
+        cout << "Got it! Personality set to " << currentPersonality << ".\n";
+    }
+}
+
+int main() {
+    int choice;
+    string name, prefix;
+
+    while (true) {
+        cout << "\nWhat would you like me to do?\n";
+        cout << "1. Default Greeting\n2. Greet by Name\n3. Custom Greeting\n4. Change Personality (Current: " << currentPersonality << ")\n5. Show Greeting History\n6. Exit\nChoose an option: ";
+
+        while (!(cin >> choice) || choice < 1 || choice > 6) {
+            cout << "Error: Invalid input. Please enter a number between 1 and 6.\n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        }
+        cin.ignore();
+
+        if (choice == 1) {
+            greet("Guest");
+        }
+        else if (choice == 2) {
+            cout << "What's your name? ";
+            getline(cin, name);
+            greet(name);
+        }
+        else if (choice == 3) {
+            cout << "What greeting would you like to use? ";
+            getline(cin, prefix);
+            cout << "Who should I greet? ";
+            getline(cin, name);
+            greet(name, prefix);
+        }
+        else if (choice == 4) {
+            changePersonality();
+        }
+        else if (choice == 5) {
+            showHistory();
+        }
+        else if (choice == 6) {
+            cout << "Goodbye! Let me know if you need me again.\n";
+            break;
+        }
+    }
+
+    return 0;
+}
