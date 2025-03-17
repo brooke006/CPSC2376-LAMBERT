@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-practice.slnLaunch",
+      "appliesTo": "practice.slnLaunch.user",
+      "type": "launch"
+    }
+  ]
+}

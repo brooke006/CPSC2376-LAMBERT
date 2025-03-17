@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\practice",
+    "\\practice\\practice07",
+    "\\practice\\practice07\\practice07",
+    "\\practice\\practice07\\x64"
   ],
-  "SelectedNode": "\\practice03.sln",
-  "PreviewInSolutionExplorer": true
+  "SelectedNode": "\\practice\\practice07",
+  "PreviewInSolutionExplorer": false
 }

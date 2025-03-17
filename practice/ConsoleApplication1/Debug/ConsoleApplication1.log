@@ -1,5 +1,0 @@
-﻿  FileName.cpp
-C:\Users\blamb\OneDrive\Documents\GitHub\CPSC2376-LAMBERT\practice\ConsoleApplication1\FileName.cpp(1,10): error C1083: Cannot open include file: 'MixedFraction.h': No such file or directory
-  FileName1.cpp
-C:\Users\blamb\OneDrive\Documents\GitHub\CPSC2376-LAMBERT\practice\ConsoleApplication1\FileName1.cpp(1,10): error C1083: Cannot open include file: 'Fraction.h': No such file or directory
-  Generating Code...
