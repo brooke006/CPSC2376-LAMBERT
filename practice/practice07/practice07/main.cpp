@@ -3,8 +3,9 @@
 #include <vector>
 #include <iomanip>
 #include <sstream>
+#include <memory>
 
-// Base Class: Employee
+// Base Class: Employee (As required in prompt)
 class Employee {
 protected:
     std::string name;
@@ -14,14 +15,14 @@ public:
     Employee(std::string name, int id) : name(std::move(name)), id(id) {}
     virtual ~Employee() = default;
 
-    virtual double calculateSalary() const = 0;  // Pure virtual function
+    virtual double calculateSalary() const = 0;  // Pure virtual function (As required in prompt)
 
     virtual void displayInfo() const {
         std::cout << "ID: " << id << ", Name: " << name;
     }
 };
 
-// Derived Class: SalariedEmployee
+// Derived Class: SalariedEmployee (As required in prompt)
 class SalariedEmployee : public Employee {
     double monthlySalary;
 
@@ -41,7 +42,7 @@ public:
     }
 };
 
-// Derived Class: HourlyEmployee
+// Derived Class: HourlyEmployee (As required in prompt)
 class HourlyEmployee : public Employee {
     double hourlyRate;
     int hoursWorked;
@@ -63,7 +64,7 @@ public:
     }
 };
 
-// Derived Class: CommissionEmployee
+// Derived Class: CommissionEmployee (As required in prompt)
 class CommissionEmployee : public Employee {
     double baseSalary;
     double salesAmount;
@@ -86,9 +87,9 @@ public:
     }
 };
 
-// Function to process employee file
-std::vector<Employee*> readEmployeesFromFile(const std::string& filename) {
-    std::vector<Employee*> employees;
+// Function to process employee file (As required in prompt)
+std::vector<std::unique_ptr<Employee>> readEmployeesFromFile(const std::string& filename) {
+    std::vector<std::unique_ptr<Employee>> employees;
     std::ifstream file(filename);
 
     if (!file) {
@@ -105,20 +106,19 @@ std::vector<Employee*> readEmployeesFromFile(const std::string& filename) {
         double val1, val2, val3;
 
         ss >> type >> id;
-        ss.ignore(); // Ignore space before name
-        std::getline(ss, name, ' ');
+        std::getline(ss >> std::ws, name, ' ');
 
         if (type == "Salaried") {
             ss >> val1;
-            if (!ss.fail()) employees.push_back(new SalariedEmployee(name, id, val1));
+            if (!ss.fail() && val1 > 0) employees.push_back(std::make_unique<SalariedEmployee>(name, id, val1));
         }
         else if (type == "Hourly") {
             ss >> val1 >> val2;
-            if (!ss.fail()) employees.push_back(new HourlyEmployee(name, id, val1, static_cast<int>(val2)));
+            if (!ss.fail() && val1 > 0 && val2 >= 0) employees.push_back(std::make_unique<HourlyEmployee>(name, id, val1, static_cast<int>(val2)));
         }
         else if (type == "Commission") {
             ss >> val1 >> val2 >> val3;
-            if (!ss.fail()) employees.push_back(new CommissionEmployee(name, id, val1, val2, val3));
+            if (!ss.fail() && val1 > 0 && val2 >= 0 && val3 >= 0) employees.push_back(std::make_unique<CommissionEmployee>(name, id, val1, val2, val3));
         }
         else {
             std::cerr << "Warning: Invalid employee type found in file: " << type << "\n";
@@ -128,10 +128,10 @@ std::vector<Employee*> readEmployeesFromFile(const std::string& filename) {
     return employees;
 }
 
-// Main Function
+// Main Function (As required in prompt)
 int main() {
     const std::string filename = "employees.txt";
-    std::vector<Employee*> employees = readEmployeesFromFile(filename);
+    auto employees = readEmployeesFromFile(filename);
 
     if (employees.empty()) {
         std::cout << "No employees to display.\n";
@@ -143,10 +143,5 @@ int main() {
         emp->displayInfo();
     }
 
-    // Cleanup dynamically allocated memory
-    for (auto emp : employees) {
-        delete emp;
-    }
-
-    return 0;
+    return 0; // Smart pointers automatically clean up memory
 }
