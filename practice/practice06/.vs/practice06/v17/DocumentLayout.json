@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73897097-61E6-4418-B93C-116F49F06109}|practice06\\practice06.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice06\\practice06\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{73897097-61E6-4418-B93C-116F49F06109}|practice06\\practice06.vcxproj|solutionrelative:practice06\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice06\\practice06\\main.cpp",
+              "RelativeDocumentMoniker": "practice06\\main.cpp",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice06\\practice06\\main.cpp",
+              "RelativeToolTip": "practice06\\main.cpp",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAswHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T23:20:47.193Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

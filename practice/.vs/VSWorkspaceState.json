@@ -1,12 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ConsoleApplication1",
-    "\\practice06",
-    "\\practice07",
+    "\\CPSC2376-LAMBERT",
+    "\\CPSC2376-LAMBERT\\practice",
+    "\\CPSC2376-LAMBERT\\practice\\practice06",
     "\\practice07\\practice07",
-    "\\project01"
+    "\\practice07\\practice07\\x64"
   ],
-  "SelectedNode": "\\practice07\\practice07\\main.cpp",
+  "SelectedNode": "\\practice07",
   "PreviewInSolutionExplorer": false
 }
