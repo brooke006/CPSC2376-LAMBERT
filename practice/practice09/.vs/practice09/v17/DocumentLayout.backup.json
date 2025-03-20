@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F3E4B86-E691-4EC4-816C-5AB4C3AB2797}|practice09\\practice09.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice09\\practice09\\problem2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F3E4B86-E691-4EC4-816C-5AB4C3AB2797}|practice09\\practice09.vcxproj|solutionrelative:practice09\\problem2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "problem2.cpp",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice09\\practice09\\problem2.cpp",
+              "RelativeDocumentMoniker": "practice09\\problem2.cpp",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice09\\practice09\\problem2.cpp",
+              "RelativeToolTip": "practice09\\problem2.cpp",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-20T00:07:03.601Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
