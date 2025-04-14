@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice11\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{19C6DC46-C008-40A9-BA4C-A5926E1E5272}|practice11\\practice11.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice11\\practice11\\design.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{19C6DC46-C008-40A9-BA4C-A5926E1E5272}|practice11\\practice11.vcxproj|solutionrelative:practice11\\design.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19C6DC46-C008-40A9-BA4C-A5926E1E5272}|practice11\\practice11.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice11\\practice11\\practice11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{19C6DC46-C008-40A9-BA4C-A5926E1E5272}|practice11\\practice11.vcxproj|solutionrelative:practice11\\practice11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "design.md",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice11\\practice11\\design.md",
+              "RelativeDocumentMoniker": "practice11\\design.md",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice11\\practice11\\design.md",
+              "RelativeToolTip": "practice11\\design.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-14T04:54:24.678Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -26,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "practice11.cpp",
               "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice11\\practice11\\practice11.cpp",
               "RelativeDocumentMoniker": "practice11\\practice11.cpp",
               "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice11\\practice11\\practice11.cpp",
               "RelativeToolTip": "practice11\\practice11.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-11T05:12:29.583Z",
               "EditorCaption": ""

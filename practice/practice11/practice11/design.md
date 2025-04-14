@@ -2,13 +2,13 @@
 
 ## Program Overview
 
-This is a lightweight system for managing board game lending at a café. The goal is to track what games the café has, how many are available, who borrowed what, and when it’s due back. Staff should be able to see the full inventory, check out games, and mark them as returned. Simple, organized, and easy to use.
+This system is for a board game café that needs an easy way to manage game lending. I wanted to design something lightweight that lets you keep track of what games you have, how many are still available, who checked them out, and when they’re due back. The goal isn’t to overcomplicate it — just make something simple that works and helps you stay organized without extra steps.
 
 ---
 
 ## Nouns and Verbs
 
-### Nouns (used as classes or attributes)
+### Nouns (things involved in the system)
 - Board Game  
 - Customer  
 - Loan  
@@ -17,13 +17,13 @@ This is a lightweight system for managing board game lending at a café. The goa
 - Copies  
 - Checkout Date  
 
-### Verbs (used as methods)
+### Verbs (things the system should do)
 - View inventory  
 - Check out a game  
 - Return a game  
 - Add or remove games  
-- Find customers or games  
-- Show loans by customer  
+- Look up a customer or game  
+- Show which games a person has out  
 
 ---
 
@@ -47,12 +47,15 @@ public:
     void decrementAvailable();
     bool isAvailable() const;
 };
+```
+
+```cpp
 class Customer {
 private:
     std::string name;
     std::string contactInfo;
     std::vector<Loan*> activeLoans;
-    
+
 public:
     Customer(std::string name, std::string contactInfo);
     std::string getName() const;
@@ -61,6 +64,9 @@ public:
     void removeLoan(Loan* loan);
     std::vector<Loan*> getActiveLoans() const;
 };
+```
+
+```cpp
 class Loan {
 private:
     BoardGame* game;
@@ -68,7 +74,7 @@ private:
     std::string checkoutDate;
     std::string dueDate;
     bool isReturned;
-    
+
 public:
     Loan(BoardGame* game, Customer* borrower, std::string checkoutDate, std::string dueDate);
     BoardGame* getGame() const;
@@ -78,12 +84,15 @@ public:
     bool getReturnStatus() const;
     void markAsReturned();
 };
+```
+
+```cpp
 class InventorySystem {
 private:
     std::vector<BoardGame*> games;
     std::vector<Customer*> customers;
     std::vector<Loan*> loans;
-    
+
 public:
     InventorySystem();
     ~InventorySystem();
@@ -99,6 +108,13 @@ public:
     void displayInventory() const;
     void displayLoansByCustomer(std::string customerName) const;
 };
+```
+
+---
+
+## 📊 Class Diagram (Mermaid)
+
+```mermaid
 classDiagram
     class BoardGame {
         -string title
@@ -114,7 +130,7 @@ classDiagram
         +decrementAvailable() void
         +isAvailable() bool
     }
-    
+
     class Customer {
         -string name
         -string contactInfo
@@ -126,7 +142,7 @@ classDiagram
         +removeLoan(loan: Loan*) void
         +getActiveLoans() vector~Loan*~
     }
-    
+
     class Loan {
         -BoardGame* game
         -Customer* borrower
@@ -141,7 +157,7 @@ classDiagram
         +getReturnStatus() bool
         +markAsReturned() void
     }
-    
+
     class InventorySystem {
         -vector~BoardGame*~ games
         -vector~Customer*~ customers
@@ -160,10 +176,12 @@ classDiagram
         +displayInventory() void
         +displayLoansByCustomer(customerName: string) void
     }
-    
+
     InventorySystem "1" --* "many" BoardGame: manages
     InventorySystem "1" --* "many" Customer: tracks
     InventorySystem "1" --* "many" Loan: records
     Loan "0..n" --o "1" BoardGame: references
     Loan "0..n" --o "1" Customer: belongs to
     Customer "1" --o "0..n" Loan: has
+
+
