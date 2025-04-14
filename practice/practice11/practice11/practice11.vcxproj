@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="practice11.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="design.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
