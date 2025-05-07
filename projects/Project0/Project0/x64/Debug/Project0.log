@@ -1,8 +1,0 @@
-﻿  Project0.cpp
-C:\Users\blamb\OneDrive\Documents\GitHub\CPSC2376-LAMBERT\projects\Project0\Project0\Project0.cpp(1,1): error C2059: syntax error: 'constant'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\sal.h(2361,12): error C2143: syntax error: missing ';' before '{'
-  (compiling source file 'Project0.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\sal.h(2361,12): error C2447: '{': missing function header (old-style formal list?)
-  (compiling source file 'Project0.cpp')
-  
