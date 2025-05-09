@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\TextProcessor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\TextProcessor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\UppercaseStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\UppercaseStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\TextFilterStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\TextFilterStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\ReverseStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\ReverseStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\RemoveVowelsStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\RemoveVowelsStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\CensorStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\CensorStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\ReverseStrategy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\ReverseStrategy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\TextProcessor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\TextProcessor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\CensorStrategy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\CensorStrategy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\RemoveVowelsStrategy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\RemoveVowelsStrategy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\UppercaseStrategy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4A2488E-DE48-4738-AAF2-90A1E24B2C6D}|Strategy\\Strategy.vcxproj|solutionrelative:Strategy\\UppercaseStrategy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TextFilterStrategy.h",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\TextFilterStrategy.h",
+              "RelativeDocumentMoniker": "Strategy\\TextFilterStrategy.h",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\TextFilterStrategy.h",
+              "RelativeToolTip": "Strategy\\TextFilterStrategy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T04:57:30.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TextProcessor.h",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\TextProcessor.h",
+              "RelativeDocumentMoniker": "Strategy\\TextProcessor.h",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\TextProcessor.h",
+              "RelativeToolTip": "Strategy\\TextProcessor.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T04:58:30.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UppercaseStrategy.h",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\UppercaseStrategy.h",
+              "RelativeDocumentMoniker": "Strategy\\UppercaseStrategy.h",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\UppercaseStrategy.h",
+              "RelativeToolTip": "Strategy\\UppercaseStrategy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T04:57:57.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReverseStrategy.h",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\ReverseStrategy.h",
+              "RelativeDocumentMoniker": "Strategy\\ReverseStrategy.h",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\ReverseStrategy.h",
+              "RelativeToolTip": "Strategy\\ReverseStrategy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T04:57:46.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RemoveVowelsStrategy.h",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\RemoveVowelsStrategy.h",
+              "RelativeDocumentMoniker": "Strategy\\RemoveVowelsStrategy.h",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\RemoveVowelsStrategy.h",
+              "RelativeToolTip": "Strategy\\RemoveVowelsStrategy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T04:58:10.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CensorStrategy.h",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\CensorStrategy.h",
+              "RelativeDocumentMoniker": "Strategy\\CensorStrategy.h",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\CensorStrategy.h",
+              "RelativeToolTip": "Strategy\\CensorStrategy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-09T04:58:18.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReverseStrategy.cpp",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\ReverseStrategy.cpp",
+              "RelativeDocumentMoniker": "Strategy\\ReverseStrategy.cpp",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\ReverseStrategy.cpp",
+              "RelativeToolTip": "Strategy\\ReverseStrategy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-09T04:55:48.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\main.cpp",
+              "RelativeDocumentMoniker": "Strategy\\main.cpp",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\main.cpp",
+              "RelativeToolTip": "Strategy\\main.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-09T04:56:59.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TextProcessor.cpp",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\TextProcessor.cpp",
+              "RelativeDocumentMoniker": "Strategy\\TextProcessor.cpp",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\TextProcessor.cpp",
+              "RelativeToolTip": "Strategy\\TextProcessor.cpp",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-09T04:56:54.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CensorStrategy.cpp",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\CensorStrategy.cpp",
+              "RelativeDocumentMoniker": "Strategy\\CensorStrategy.cpp",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\CensorStrategy.cpp",
+              "RelativeToolTip": "Strategy\\CensorStrategy.cpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-09T04:55:25.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RemoveVowelsStrategy.cpp",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\RemoveVowelsStrategy.cpp",
+              "RelativeDocumentMoniker": "Strategy\\RemoveVowelsStrategy.cpp",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\RemoveVowelsStrategy.cpp",
+              "RelativeToolTip": "Strategy\\RemoveVowelsStrategy.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-09T04:56:25.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UppercaseStrategy.cpp",
+              "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\UppercaseStrategy.cpp",
+              "RelativeDocumentMoniker": "Strategy\\UppercaseStrategy.cpp",
+              "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\Practice14\\Strategy\\Strategy\\UppercaseStrategy.cpp",
+              "RelativeToolTip": "Strategy\\UppercaseStrategy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-09T04:56:11.564Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
