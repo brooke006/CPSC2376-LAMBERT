@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\projects\\Project04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1673CC5E-9DB4-4D76-AFEC-2E102CD6B565}|Project0\\Project0.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\projects\\Project04\\Project0\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{1673CC5E-9DB4-4D76-AFEC-2E102CD6B565}|Project0\\Project0.vcxproj|solutionrelative:Project0\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1673CC5E-9DB4-4D76-AFEC-2E102CD6B565}|Project0\\Project0.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\projects\\Project04\\Project0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1673CC5E-9DB4-4D76-AFEC-2E102CD6B565}|Project0\\Project0.vcxproj|solutionrelative:Project0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1673CC5E-9DB4-4D76-AFEC-2E102CD6B565}|Project0\\Project0.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\projects\\Project04\\Project0\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1673CC5E-9DB4-4D76-AFEC-2E102CD6B565}|Project0\\Project0.vcxproj|solutionrelative:Project0\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1673CC5E-9DB4-4D76-AFEC-2E102CD6B565}|Project0\\Project0.vcxproj|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\projects\\Project04\\Project0\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1673CC5E-9DB4-4D76-AFEC-2E102CD6B565}|Project0\\Project0.vcxproj|solutionrelative:Project0\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\projects\\Project04\\Project0\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project0\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice12\\practice12\\practice12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\projects\\Project04\\Project0\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project0\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\projects\\Project04\\Project0\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project0\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\projects\\Project04\\Project0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,10 +59,8 @@
               "RelativeDocumentMoniker": "Project0\\README.md",
               "ToolTip": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\projects\\Project04\\Project0\\README.md",
               "RelativeToolTip": "Project0\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-05-07T00:32:45.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T00:32:45.484Z"
             },
             {
               "$type": "Document",
@@ -78,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\projects\\Project04\\Project0\\main.cpp",
               "RelativeDocumentMoniker": "Project0\\main.cpp",
@@ -90,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "practice12.cpp",
               "DocumentMoniker": "C:\\Users\\blamb\\OneDrive\\Documents\\GitHub\\CPSC2376-LAMBERT\\practice\\practice12\\practice12\\practice12.cpp",
               "RelativeDocumentMoniker": "..\\..\\practice\\practice12\\practice12\\practice12.cpp",

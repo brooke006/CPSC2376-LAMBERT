@@ -135,7 +135,7 @@
     <ClInclude Include="game.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Project0\README.md" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
