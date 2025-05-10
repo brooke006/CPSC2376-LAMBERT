@@ -138,7 +138,6 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="engine.h" />
     <ClInclude Include="game.h" />
   </ItemGroup>
   <ItemGroup>
