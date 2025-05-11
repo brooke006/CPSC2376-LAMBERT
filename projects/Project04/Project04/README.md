@@ -14,7 +14,7 @@ This is a turn-based color flooding game written in C++ using SDL2. Your goal is
 
 ## 🧪 Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot 2025-05-10 003425.png)
 
 ## ✨ Extra Features
 
